@@ -1,0 +1,43 @@
+This is what ive been learing in my first week of learing linux.
+i have learned how to navigate thought linux useing these basic commands.
+
+Basic Linux Commands
+ls – Lists files and directories.
+cd – Changes the working directory.
+pwd – Displays the current directory path.
+cp – Copies files or directories.
+mv – Moves or renames files.
+rm – Deletes files or directories.
+chmod – Changes file permissions.
+chown – Modifies file ownership.
+ps – Lists running processes.
+kill – Terminates processes.
+grep – Searches for text patterns within files.
+find – Locates files in the filesystem.
+tar – Archives files for storage or transfer.
+df – Displays disk space usage.
+du – Shows disk usage per directory.
+top – Monitors system resources in real-time.
+
+Linux File System Structure
+/ – Root directory.
+/bin – Essential system binaries.
+/etc – Configuration files.
+/home – User directories.
+/var – Variable files (logs, databases, etc.).
+/tmp – Temporary files.
+/usr – User-installed software.
+/dev – Hardware devices.
+
+User & Permission Management
+whoami – Identifies the current user.
+id – Displays user and group IDs.
+useradd – Creates a new user.
+usermod – Modifies a user account.
+passwd – Changes user passwords.
+groupadd – Creates a new group.
+chmod – Modifies file permissions.
+chown – Changes file ownership.
+Linux Permissions
+Read (r = 4), Write (w = 2), Execute (x = 1)
+Example: chmod 755 file.txt (Owner: rwx, Group: r-x, Others: r-x)
