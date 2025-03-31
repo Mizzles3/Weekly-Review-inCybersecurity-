@@ -1,0 +1,29 @@
+this is some more of my notes from week two 
+
+1. Permissions & Ownership
+ls -l - List file permissions
+chmod [permissions] [file] - Change file permissions
+chown [user]:[group] [file] - Change file ownership
+
+2. Process Management
+ps aux - Display running processes
+top - Show system resource usage
+kill [PID] - Terminate a process by ID
+killall [process] - Terminate a process by name
+jobs - Show background jobs
+bg [job] - Resume job in the background
+fg [job] - Resume job in the foreground
+
+3. Networking
+ifconfig / ip a - Display network interfaces
+ping [host] - Test network connectivity
+netstat -tulnp - Show active network connections
+curl -O [URL] - Download file from the web
+ 
+4.User Management
+whoami - Display current user
+who - Show logged-in users
+adduser [username] - Add a new user
+passwd [username] - Change user password
+usermod -aG [group] [user] - Add user to a group
+deluser [username] - Delete a user
